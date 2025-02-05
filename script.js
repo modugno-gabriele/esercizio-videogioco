@@ -1,8 +1,7 @@
 function startGame() {
     myGameArea.start();
-    myGamePiece = new component(30, 30, "red", 10, 120);
+    myGameArea.draw(redSquare);
 }
-
 var redSquare = {
     width: 20,
     height: 20,
@@ -17,15 +16,11 @@ var myGameArea = {
         this.canvas.height = 270;
         this.context = this.canvas.getContext("2d");
         document.body.insertBefore(this.canvas, document.body.childNodes[0]);      
-    }
+    },
+    draw: function(component) {
+        this.context.fillStyle = component.color;
+        this.context.fillRect(component.x, component.y, component.width, component.height);
+      }
 }
-function component(width, height, color, x, y) {
-    this.width = width;
-    this.height = height;
-    this.x = x;
-    this.y = y;    
-    ctx = myGameArea.context;
-    ctx.fillStyle = color;
-    ctx.fillRect(this.x, this.y, this.width, this.height);
-}
+
 
