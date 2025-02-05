@@ -1,0 +1,4 @@
+1.Quando la si collega al html
+2.body onload esegue la funzione JavaScript chiamata startGame() non appena la pagina viene caricata completamente,esegue automaticamente la funzione startGame().
+myGameArea.start(); serve per inizializzare o avviare l'area di gioco 
+3.

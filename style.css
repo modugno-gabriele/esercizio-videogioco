@@ -1,0 +1,17 @@
+body{
+    background-color: orange; 
+    } 
+    canvas {
+        text-align: center;
+        border: 1px solid #d3d3d3;
+        background-color: #f1f1f1;
+    }
+    redSquare {
+        width: 20,
+        height: 20,
+        x: 10,
+        y: 120,
+        color: "red"
+      };
+
+    
