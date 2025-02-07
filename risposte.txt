@@ -1,4 +1,6 @@
 1.Quando la si collega al html
 2.body onload esegue la funzione JavaScript chiamata startGame() non appena la pagina viene caricata completamente,esegue automaticamente la funzione startGame().
 myGameArea.start(); serve per inizializzare o avviare l'area di gioco 
-3.
+3.Serve per inizializzare il canvas
+4. È un metodo che configura l'elemento canvas. All'interno di questo metodo:
+La larghezza e l'altezza del canvas vengono impostate a 480px e 270px, rispettivamente.
