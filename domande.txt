@@ -1,0 +1,14 @@
+1)la canvas viene aggiunta quando viene caricata la pagina tramite l'evento onload 
+2)<body onload="startGame()"> permette al caricamento della pagina di attivare la funzione startGame che inizializzerà il mio gioco, invece myGameArea.start() nel codice chiama il metodo start dell'oggetto myGameArea
+3)serve a definire le caratteristiche del canvas
+4)start è una funzione in cui viene configurato il canvas e viene aggiunto al body
+5)esso viene creato tramite questa riga di codice document.createElement("canvas") inserita all'interno del mio oggetto myGameArea
+a)attraverso document.body.insertBefore,che lo inserisce prima di tutto.
+6)l'oggetto redSquare ha una larghezza e un'altezza di 20 pixel ciascuna,dopodichè ha come valore delle coordinate x 10 e di y 120,che come nel piano cartesiano,indicano una direzione ciascua.
+nel caso di x,l'oggetto redSquare disterà 10 pixel da sinistra del canvas,mentre per y disterà 120 pixel dall'alto di esso.
+7)per permettere di creare altri elementi più facilmente
+8)Le variabili X e Y servono a far aumentare rispettivamente la velocità verticale e orizzontale dell'oggetto.
+9)Tramite la funzione  this.newPos 
+10)Essa aumentare
+11)Quando un'animazione o un gioco è in movimento, la posizione degli oggetti deve essere aggiornata continuamente per riflettere il loro cambiamento nel tempo.
+12)La differenza principale tra l'evento mousedown e l'evento click riguarda il momento in cui vengono attivati durante l'interazione con il mouse.
